@@ -33,5 +33,9 @@ print("\r")
 print ("The array after insertion is : ", end="")
 for i in range (0, 5):
     print (arr[i], end=" ")
-
-
+    
+#printing array after deletion
+arr.remove(2)
+print("The array after deletion is:",end="")
+for i in range (0,4):
+    print(arr[i], end="")
